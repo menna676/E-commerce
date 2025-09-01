@@ -1,0 +1,14 @@
+.default-profile-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #00d0ff 0%, #003791 100%);
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.default-profile-pic:hover {
+  transform: scale(1.05);
+}
